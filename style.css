@@ -1,0 +1,135 @@
+/* subject to change body, paragraph, and header style */
+
+* {
+        margin: 0;
+        padding: 0;
+        border: 0;
+        outline: 0;
+        font-size: 100%;
+        vertical-align: baseline;
+        background: transparent;
+ }
+
+ 
+body {
+	font-size: 20px;
+	font-family: 'Cambria', sans-serif;
+	line-height:1.5;
+	background: #d9dcd6;
+	color: #212227;
+	width: 60%;
+	padding: 10%;
+	text-align: center;
+}
+
+
+h1 {
+	padding-top: 80px;
+	padding-right: 40px;
+}
+
+
+h2 {
+	font-size: 38px;
+}
+
+
+
+p {
+	text-align: justify;
+	text-indent: 2em;
+	text-decoration: none;
+}
+
+h4 {
+	font-family: 'Arial', sans-serif;
+	font-size: 1.5em;
+	font-weight: bold;
+	text-allign: center;
+	margin: 1 em;
+	padding: 0.5em;
+}
+
+img {
+	border: 3px solid gray;
+	width: 1000px;
+	height: 600px;
+	box-shadow: gray 0 0 10px;
+	border-radius: 5%;
+}
+
+
+/* only 2 lines for link styles as i wanted to keep the website basic
+ looking */
+
+
+a {
+	text-decoration: none;	
+}	
+
+
+a:active {
+	color:red;
+}
+
+
+
+ul {
+	list-style-type: square;
+	text-allign: center;
+	list-style-postition: inside;
+	line-height: 1.6;
+	margin-right: 5em;
+	margin-left: 6em;	
+}
+
+li {
+	margin-left:6em;
+	margin-right: 8em;
+}
+
+
+.header {
+	background-color: black;
+	background-image: url("imgs/miataheader.jpg");
+	background-size: cover
+	height: 480px;
+	text-allign: center;
+	width: 1700px;
+	margin-top: px;
+}
+
+/* curse class for any explicit language */
+
+
+.curse {
+	text-decoration: line-through;
+}
+
+/* d class for text paired with lists */
+
+.d {
+	font-family: font-family: 'Roboto', sans-serif;
+	color: #000000;
+	font-size: 21px;
+}
+	
+/* box lists for copyright footer */
+
+.box {
+	border: 5px double gray;
+	font-size: 1rem;
+	margin: 1.5em;
+	padding: 1.5em;
+	outline: 5px solid black;
+	outline-offset: -1px;
+	height: 50px;
+}
+
+
+/* inherit for input button not neccesary , should probably use inherit for some of the final header and paragraph style */
+	
+input, button {
+	font: inherit;
+}
+
